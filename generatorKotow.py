@@ -17,4 +17,5 @@ try:
 except ValueError as owcaWywala:
     #tutaj instrukcje ktore sie wykonaja kiedy zdarzy sie error
     print(f'Wystapil blad , program przyjmuje tylko liczby naturalne')
-print('(=^.^=)'*ileKotow)
+for x in range(0,ileKotow):
+    print("(=^.^=)" * x + "(=^.^=)")
